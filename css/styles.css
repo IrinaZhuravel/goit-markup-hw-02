@@ -1,4 +1,5 @@
 :root {
+  --primary-page-color: #757575
   --primary-logo-color: #000000;
   --secondary-logo-color: #2196f3;
   --header-text-color: #212121;
@@ -15,8 +16,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  color: var(--primary-page-color)
 }
 
 .list {
@@ -85,6 +85,9 @@ body {
 .hero-btn:hover,
 .hero-btn:focus
 {color: var(--effects-color);
+}
+.hero-btn {
+  cursor: pointer;
 }
 .visually-hidden {
   position: absolute;
@@ -169,6 +172,9 @@ color: var(--button-primary-color)
 .filter-btn:focus,
 .filter-btn:hover
 {color: var(--effects-color)
+}
+.filter-btn {
+  cursor: pointer;
 }
 .project-title {
 font-weight: 700;
