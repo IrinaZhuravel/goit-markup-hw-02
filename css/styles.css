@@ -1,7 +1,7 @@
 :root {
   --primary-page-color: #757575
   --primary-logo-color: #000000;
-  --secondary-logo-color: #2196f3;
+  --secondary-logo-color: #ffffff;
   --header-text-color: #212121;
   --effects-color: #2196f3;
   --header-contact-color: #757575;
@@ -28,7 +28,7 @@ body {
 }
 
 
-.logo {
+.header-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -37,7 +37,8 @@ body {
   color: var(--primary-logo-color);
 }
 .logo-effect {
-  color: var(--secondary-logo-color);
+  color: var(--effects-color);
+
 }
 .header-nav {
   font-weight: 500;
@@ -142,6 +143,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.footer-logo  
+{font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-logo-color);
+}
+.logo-effect {
+  color: var(--effects-color);
+
+}
+
 .footer {background-color: var(--emphasis-background-color);}
 .address-map {
   font-style: normal;
