@@ -13,6 +13,7 @@
   --text-color: #757575;
   --footer-text-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --emphasis-background-color: #2F303A;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -25,6 +26,8 @@ body {
 .link {
   text-decoration: none;
 }
+
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -36,11 +39,7 @@ body {
 .logo-effect {
   color: var(--secondary-logo-color);
 }
-.logo:focus,
-.logo:hover {
-  color: var(--effects-color);
-}
-.nav-list {
+.header-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,6 +52,8 @@ body {
 .nav-link:focus {
   color: var(--effects-color);
 }
+.active {color: var(--effects-color);}
+
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
@@ -64,6 +65,7 @@ body {
 .contacts-link:focus {
   color: var(--effects-color);
 }
+.hero {background-color: var(--emphasis-background-color);}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -72,7 +74,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-title-color);
-  background-color: gray;
 }
 .hero-btn {
   font-weight: 700;
@@ -81,10 +82,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--button-secondary-color);
+  background-color: var(--effects-color);
+  border: 0;
 }
 .hero-btn:hover,
 .hero-btn:focus
-{color: var(--effects-color);
+{color: var(--button-primary-color);
 }
 .hero-btn {
   cursor: pointer;
@@ -139,13 +142,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.footer {background-color: var(--emphasis-background-color);}
 .address-map {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  background-color: gray;
 }
 .address-link {
   font-style: normal;
@@ -153,7 +156,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
-  background-color: gray;
 }
 .address-map:focus,
 .address-map:hover,
@@ -162,16 +164,19 @@ body {
   color: var(--effects-color);
 }
 .filter-btn {
+  font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--button-primary-color)
+color: var(--button-primary-color);
+border: 0;
 }
 .filter-btn:focus,
 .filter-btn:hover
-{color: var(--effects-color)
+{color: var(--button-secondary-color);
+  background-color: var(--effects-color);
 }
 .filter-btn {
   cursor: pointer;
