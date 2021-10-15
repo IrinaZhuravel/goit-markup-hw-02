@@ -1,2 +1,2 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 https://github.com/IrinaZhuravel/goit-markup-hw-02
